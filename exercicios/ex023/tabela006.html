@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+
+    caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgrey;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    thead, tfoot {
+        background-color: grey;
+        color: white;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: 0;
+        background-color: grey;
+    }
+
+    tbody > tr:nth-child(odd) { /* 2n-1 */
+        background-color: white;
+    }
+
+    tbody > tr:nth-child(even){ /* 2n */
+        background-color: lightgrey;
+    }
+
+    td.num {
+        text-align: right;
+    }
+
+    #container {
+        overflow-x: auto;
+    }
+
+    </style></head>
+</head>
+<body>
+    <h1>Tabela Responsivas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint expedita libero quibusdam quaerat, aperiam cumque earum voluptatum doloremque repudiandae blanditiis nisi repellendus tempora autem dolorum aut, ipsum in tempore.</p>
+
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Sep</th>
+                    <th>oct</th>
+                    <th>nov</th>
+                    <th>Dec</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+</html>
